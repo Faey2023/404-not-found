@@ -3,13 +3,12 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Space Mono', monospace;
 }
-#img-container{
-    width: 1000px;
-    height: 500px;
+#image{
+    max-width: 600px;
 }
 .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 #heading{
     color: #333;
@@ -34,4 +33,14 @@
     letter-spacing: -0.49px;
     font-size: 14px;
     font-weight: 700;
+}
+@media screen and (max-width:625px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .info-container{
+        display: flex;
+        flex-direction: column;
+    }
 }
