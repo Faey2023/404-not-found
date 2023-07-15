@@ -1,0 +1,37 @@
+*{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Space Mono', monospace;
+}
+#img-container{
+    width: 1000px;
+    height: 500px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+#heading{
+    color: #333;
+    font-family: Space Mono;
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: -2.24px;    
+    width: 589px;
+}
+#info{
+    color: #4F4F4F;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -0.84px;
+    width: 381px;
+}
+#btn{
+    width: 216px;
+    height: 68px;
+    background-color: #333;
+    color: #FFF;
+    letter-spacing: -0.49px;
+    font-size: 14px;
+    font-weight: 700;
+}
