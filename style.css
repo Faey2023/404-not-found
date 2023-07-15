@@ -34,6 +34,20 @@
     font-size: 14px;
     font-weight: 700;
 }
+/* footer starts here  */
+footer{
+    background-color: #4F4F4F;
+    margin-top: 180px;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    font-size: small;
+    color: #FFF;
+}
+/* responsiveness media query starts here  */
 @media screen and (max-width:625px){
     .container{
         display: flex;
